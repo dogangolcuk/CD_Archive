@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=Application;Translation;Office;Dictionary;Education;QT;
+Comment=cdarsiv
+Comment[tr]=cdarsiv
+Encoding=UTF-8
+Exec=cdarsiv
+GenericName=Cd DvD Arşivleyici Programı
+GenericName[tr]=Cd DvD Arşivleyici Programı
+Icon=kaudiocreator
+MimeType=
+Name=Cd DvD Arşivleyici
+Name[tr]=Cd DvD Arşivleyici
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

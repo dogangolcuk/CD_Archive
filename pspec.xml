@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>cdarsiv</Name>
+	<Homepage>http://code.google.com/dogangolcuk</Homepage>
+        <Packager>
+            <Name>dogangolcuk</Name>
+            <Email>dogangolcuk@gmail.com</Email>
+        </Packager>
+        <License>GPL-2</License>
+        <IsA>app:gui</IsA>
+	<PartOf>applications.education</PartOf>
+        <Summary>Cd ve Dvd Arşivleyici.</Summary>
+        <Description>Cd ve DvDleriniz içindeki dosya isimlerini kaydeder ve daha sonra kolayca aradığınız dosyanın hangi cd/dvd içinde olduğunu görürsünüz.</Description>
+	<Archive sha1sum="e120a606e0cd547ba4d5eace470d12487570b4ee" type="targz">/home/qwert/MyProgs/2011/CdDvdArsiv/CdArsiv-0.5.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>qt</Dependency>
+	    <Dependency>qt-sql-sqlite</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+	 <Name>cdarsiv</Name>
+         <RuntimeDependencies>
+            <Dependency>qt</Dependency>
+	    <Dependency>qt-sql-sqlite</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share</Path>
+	    <Path fileType="data">/tmp</Path>
+        </Files>
+        <AdditionalFiles>
+		<AdditionalFile owner="root" permission="0644" target="/usr/share/applications/cdarsiv.desktop">cdarsiv.desktop</AdditionalFile>
+		<AdditionalFile owner="root" permission="0644" target="/tmp/arsivdb">arsivdb</AdditionalFile>
+        </AdditionalFiles>
+   </Package>
+   <History>
+        <Update release="1">
+            <Date>2011-03-07</Date>
+            <Version>0.5</Version>
+            <Comment>First release</Comment>
+            <Name>dogangolcuk</Name>
+            <Email>dogangolcuk@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
+

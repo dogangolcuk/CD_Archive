@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/ikonlar" >
+        <file>ikonlar/ark.png</file>
+        <file>ikonlar/fileopen.png</file>
+        <file>ikonlar/filesave.png</file>
+        <file>ikonlar/misc.png</file>
+        <file>ikonlar/reload.png</file>
+        <file>ikonlar/search.png</file>
+        <file>ikonlar/stop.png</file>
+    </qresource>
+</RCC>
